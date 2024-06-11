@@ -1,0 +1,14 @@
+server.port: 8080
+spring:
+  application.name: arrow-merch
+  datasource:
+    driverClassName: org.h2.Driver
+    url: jdbc:h2:./h2-local.db
+    username: sa
+    password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+
+app.kongoUrl: https://kongo.at
